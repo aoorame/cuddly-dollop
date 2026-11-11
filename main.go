@@ -27,7 +27,7 @@ func generateRandomElements(size int) []int {
 // maximum возвращает максимальное число в слайсе. При пустом слайсе возвращается 0.
 func maximum(data []int) int {
 	if len(data) == 0 {
-		return 0 // пустой слайс → 0
+		return 0
 	}
 	max := data[0]
 	for _, v := range data[1:] {
